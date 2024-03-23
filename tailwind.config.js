@@ -8,7 +8,12 @@ export default {
     "./vendor/tallstackui/tallstackui/src/**/*.php",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "grotesk": ["'Space Grotesk'", 'sans-serif'],
+        "inter": ["'Inter'", 'sans-serif']
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms')
