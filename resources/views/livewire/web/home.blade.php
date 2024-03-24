@@ -1,4 +1,4 @@
-<div class="space-y-16">
+<div>
     <livewire:web.components.hero />
 
     <livewire:web.components.benefits />
