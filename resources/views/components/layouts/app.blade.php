@@ -14,6 +14,8 @@
 </head>
 
 <body class="font-grotesk">
+    <livewire:web.components.navbar />
+
     {{ $slot }}
 
     @livewireScripts
