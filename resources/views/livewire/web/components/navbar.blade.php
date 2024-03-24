@@ -4,8 +4,7 @@
         :class="{ 'xl:!py-4 !bg-transparent !text-black backdrop-blur-lg': showBar }" x-data="{}"
         x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-2xl mx-auto max-xl:px-4 flex items-center justify-between">
-            <a href="#"
-                class="text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
+            <a href="#" class="text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
                 {{ env('APP_NAME') }}
             </a>
 
@@ -48,17 +47,20 @@
         <div class="w-full h-full flex items-center">
             <ul class="w-full md:max-w-screen-sm mx-auto text-xl lg:text-2xl font-medium flex flex-col gap-4 md:p-0">
                 <li>
-                    <a href="#" class="hover:text-financialwire-purple transition-all ease-in-out">
+                    <a href="#" x-on:click="$slideClose('nav-slide')"
+                        class="hover:text-financialwire-purple transition-all ease-in-out">
                         Início
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-financialwire-purple transition-all ease-in-out">
+                    <a href="#beneficios" x-on:click="$slideClose('nav-slide')"
+                        class="hover:text-financialwire-purple transition-all ease-in-out">
                         Benefícios
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-financialwire-purple transition-all ease-in-out">
+                    <a href="#" x-on:click="$slideClose('nav-slide')"
+                        class="hover:text-financialwire-purple transition-all ease-in-out">
                         Contato
                     </a>
                 </li>
