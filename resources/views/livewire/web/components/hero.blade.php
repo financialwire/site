@@ -11,7 +11,7 @@
         </p>
 
         <a href="#"
-            class="w-fit px-6 lg:px-0 lg:w-full bg-financialwire-purple text-sm lg:text-lg text-white text-center font-inter font-bold py-3 lg:py-6 max-w-96 uppercase">
+            class="w-fit px-6 lg:px-0 lg:w-full rounded-lg bg-financialwire-purple text-sm lg:text-lg text-white text-center font-inter font-bold py-3 lg:py-6 max-w-96 uppercase hover:bg-black transition-all ease-in-out duration-300">
             Comece agora
         </a>
 
@@ -28,6 +28,5 @@
         fit: 'contain'
     });">
         <canvas x-ref="animation" class="w-full h-auto aspect-square"></canvas>
-
     </div>
 </div>
