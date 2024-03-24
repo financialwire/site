@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         "grotesk": ["'Space Grotesk'", 'sans-serif'],
         "inter": ["'Inter'", 'sans-serif']
+      },
+      colors: {
+        "financialwire-purple": "#5B21B6"
       }
     },
   },
