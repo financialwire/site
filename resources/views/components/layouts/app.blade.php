@@ -24,6 +24,8 @@
 
     {{ $slot }}
 
+    <livewire:web.components.footer />
+
     @livewireScripts
 </body>
 
