@@ -4,7 +4,8 @@
         :class="{ 'xl:!py-4 !bg-transparent !text-black backdrop-blur-lg': showBar }" x-data="{}"
         x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-2xl mx-auto px-4 flex items-center justify-between">
-            <a href="#" class="text-lg xl:text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
+            <a href="#"
+                class="text-lg xl:text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
                 {{ env('APP_NAME') }}
             </a>
 
@@ -21,13 +22,14 @@
             </div>
 
             <div class="flex gap-4 text-sm max-xl:hidden">
-                <a href="#"
+                <a href="{{ env('DASH_LOGIN_URL') }}"
                     class="text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-6 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
                     :class="{ 'backdrop-blur border-0': showBar }">
                     <x-heroicon-s-arrow-right-end-on-rectangle class="w-5 h-5" />
                     Faça Login
                 </a>
-                <a href="#"
+
+                <a href="{{ env('DASH_REGISTRATION_URL') }}"
                     class="!text-white bg-financialwire-purple flex items-center gap-1 rounded-xl px-6 py-3 hover:bg-white hover:!text-black transition-all ease-in-out"
                     :class="{ 'hover:bg-zinc-900 hover:!text-white': showBar }">
                     <x-heroicon-s-user-plus class="w-5 h-5" />
@@ -66,13 +68,14 @@
                 </li>
                 <li>
                     <div class="flex gap-2 text-sm">
-                        <a href="#"
+                        <a href="{{ env('DASH_LOGIN_URL') }}"
                             class="w-full !text-sm justify-center text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-2 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
                             :class="{ 'backdrop-blur border-0': showBar }">
                             <x-heroicon-s-arrow-right-end-on-rectangle class="w-4 h-4" />
                             Faça Login
                         </a>
-                        <a href="#"
+
+                        <a href="{{ env('DASH_REGISTRATION_URL') }}"
                             class="w-full !text-sm justify-center text-white bg-financialwire-purple flex items-center gap-1 rounded-xl px-2 py-3 hover:bg-white hover:!text-black transition-all ease-in-out"
                             :class="{ 'hover:bg-zinc-900 hover:!text-white': showBar }">
                             <x-heroicon-s-user-plus class="w-4 h-4" />

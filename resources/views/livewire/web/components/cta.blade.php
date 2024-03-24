@@ -13,7 +13,7 @@
                     quando e onde quiser.
                 </p>
 
-                <a href="#"
+                <a href="{{ env('DASH_REGISTRATION_URL') }}"
                     class="w-fit px-6 lg:px-0 lg:w-full max-xl:mx-auto rounded-lg bg-black text-sm lg:text-lg text-white text-center font-inter font-bold py-3 lg:py-6 max-w-96 uppercase hover:bg-white hover:text-black transition-all ease-in-out duration-300">
                     Comece agora
                 </a>
