@@ -21,7 +21,7 @@
                 </a>
             </div>
 
-            <div class="flex flex-wrap gap-4 text-sm max-xl:hidden">
+            <div class="flex gap-4 text-sm max-xl:hidden">
                 <a href="#"
                     class="text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-6 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
                     :class="{ 'backdrop-blur border-0': showBar }">
@@ -65,15 +65,15 @@
                 <li>
                     <div class="flex gap-2 text-sm">
                         <a href="#"
-                            class="w-full text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-6 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
+                            class="w-full !text-sm justify-center text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-2 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
                             :class="{ 'backdrop-blur border-0': showBar }">
-                            <x-heroicon-s-arrow-right-end-on-rectangle class="w-5 h-5" />
+                            <x-heroicon-s-arrow-right-end-on-rectangle class="w-4 h-4" />
                             Faça Login
                         </a>
                         <a href="#"
-                            class="!w-full text-white bg-financialwire-purple flex items-center gap-1 rounded-xl px-6 py-3 hover:bg-white hover:!text-black transition-all ease-in-out"
+                            class="w-full !text-sm justify-center text-white bg-financialwire-purple flex items-center gap-1 rounded-xl px-2 py-3 hover:bg-white hover:!text-black transition-all ease-in-out"
                             :class="{ 'hover:bg-zinc-900 hover:!text-white': showBar }">
-                            <x-heroicon-s-user-plus class="w-5 h-5" />
+                            <x-heroicon-s-user-plus class="w-4 h-4" />
                             Cadastre-se
                         </a>
                     </div>
