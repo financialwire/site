@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl mx-auto max-xl:px-4 min-h-svh items-center">
+<div class="max-w-screen-xl mx-auto max-xl:px-4 py-8 min-h-svh items-center">
     <h1 class="font-bold text-4xl lg:text-6xl text-center mb-6">
         Tenha controle do seu dinheiro <br>
         de maneira simplificada

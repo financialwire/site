@@ -1,4 +1,4 @@
-<div class="h-svh max-w-screen-xl mx-auto max-xl:px-4">
+<div class="flex items-center min-h-svh max-w-screen-xl mx-auto max-xl:px-4">
 
     <div class="h-full grid grid-cols-1 lg:grid-cols-2 items-center">
         <div class="flex flex-col gap-6 max-lg:max-w-screen-sm max-lg:mx-auto max-lg:mb-auto">
@@ -17,7 +17,7 @@
             </a>
         </div>
 
-        <div class="w-full max-lg:order-first max-lg:mt-auto" x-init="dotLottie = new DotLottie({
+        <div class="w-full sm:max-w-64 md:max-w-96 lg:max-w-none max-lg:mx-auto max-lg:mt-auto max-lg:order-first" x-init="dotLottie = new DotLottie({
             autoplay: true,
             loop: true,
             canvas: $refs.animation,
