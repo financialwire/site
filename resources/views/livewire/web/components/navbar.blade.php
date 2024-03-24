@@ -1,11 +1,11 @@
 <div x-data="{ showBar: false }">
 
-    <div class="fixed w-full bg-zinc-900 py-2 xl:py-8 text-white transition-all ease-in-out"
+    <div class="fixed w-full bg-zinc-900 py-4 xl:py-8 text-white transition-all ease-in-out"
         :class="{ 'xl:!py-4 !bg-transparent !text-black backdrop-blur-lg': showBar }" x-data="{}"
         x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-2xl mx-auto max-xl:px-4 flex items-center justify-between">
             <a href="#"
-                class="text-2xl font-bold py-2 px-4 hover:text-financialwire-purple transition-all ease-in-out">
+                class="text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
                 {{ env('APP_NAME') }}
             </a>
 
@@ -37,7 +37,7 @@
             </div>
 
             <button x-on:click="$slideOpen('nav-slide')" type="button"
-                class="xl:hidden ml-auto inline-flex items-center p-2 w-10 h-10 justify-center text-sm focus:outline-none focus:ring-0">
+                class="xl:hidden ml-auto inline-flex items-center w-6 h-6 justify-center text-sm focus:outline-none focus:ring-0">
                 <span class="sr-only">Open main menu</span>
                 <x-heroicon-o-bars-3 class="h-8 w-8" />
             </button>
