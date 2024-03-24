@@ -1,4 +1,4 @@
-<div class="max-w-screen-2xl mx-auto max-xl:px-4 pb-4 pt-12 xl:py-12 border-t flex max-xl:flex-col max-xl:gap-8 xl:items-center justify-between">
+<div class="max-w-screen-2xl mx-auto px-4 pb-4 pt-12 xl:py-12 border-t flex max-xl:flex-col max-xl:gap-8 xl:items-center justify-between">
     <a href="#" class="text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
         {{ env('APP_NAME') }}
     </a>

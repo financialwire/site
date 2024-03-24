@@ -1,7 +1,8 @@
-<div class="bg-financialwire-purple">
-    <div class="max-w-screen-xl mx-auto max-xl:px-4">
+<div class="max-sm:min-h-svh max-sm:flex max-sm:items-center md:py-8 xl:py-0 bg-financialwire-purple">
+    <div class="max-w-screen-xl mx-auto px-4">
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 max-xl:py-4 items-center">
-            <img src="{{ asset('images/mockup.png') }}" alt="Mockup" class="w-full max-xl:max-w-screen-sm max-xl:mx-auto xl:scale-105">
+            <img src="{{ asset('images/mockup.png') }}" alt="Mockup"
+                class="w-full max-w-96 lg:max-w-screen-sm max-xl:mx-auto xl:scale-105">
 
             <div class="flex flex-col max-xl:mx-auto max-xl:max-w-screen-sm gap-6 text-white max-xl:text-center">
                 <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl">

@@ -3,7 +3,7 @@
     <div class="fixed w-full bg-zinc-900 py-4 xl:py-8 text-white transition-all ease-in-out"
         :class="{ 'xl:!py-4 !bg-transparent !text-black backdrop-blur-lg': showBar }" x-data="{}"
         x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
-        <div class="max-w-screen-2xl mx-auto max-xl:px-4 flex items-center justify-between">
+        <div class="max-w-screen-2xl mx-auto px-4 flex items-center justify-between">
             <a href="#" class="text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
                 {{ env('APP_NAME') }}
             </a>

@@ -1,4 +1,4 @@
-<div class="flex items-center min-h-svh max-w-screen-xl mx-auto max-xl:px-4">
+<div class="flex items-center min-h-svh max-w-screen-xl mx-auto px-4">
 
     <div class="h-full grid grid-cols-1 lg:grid-cols-2 items-center">
         <div class="flex flex-col gap-4 sm:gap-6 max-lg:max-w-screen-sm max-lg:mx-auto max-lg:mb-auto">
