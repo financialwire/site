@@ -1,4 +1,4 @@
-<div class="h-svh grid grid-cols-1 lg:grid-cols-2 max-lg:gap-8 items-center">
+<div class="h-svh grid grid-cols-1 md:grid-cols-2 max-md:gap-8 items-center">
     <div class="flex flex-col gap-5">
 
         <h1 class="font-bold text-4xl lg:text-6xl">
