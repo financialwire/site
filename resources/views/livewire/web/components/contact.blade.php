@@ -1,10 +1,10 @@
 <div class="max-w-screen-xl flex items-center mx-auto min-h-svh px-4 py-8 max-xl:scroll-mt-16" id="contato">
     <div class="w-full flex flex-col gap-8 xl:gap-32 xl:flex-row">
         <div class="w-full space-y-4">
-            <h1 class="font-bold text-3xl lg:text-5xl max-lg:text-center">
+            <h1 class="font-bold text-3xl lg:text-5xl">
                 Entre em contato diretamente conosco!
             </h1>
-            <p class="max-xl:text-center xl:text-xl">
+            <p class="xl:text-xl">
                 Encontrou algum problema técnico? Gostaria de nos dar um feedback? Entre em contato! Estamos aqui para
                 ajudar e receber suas sugestões.
             </p>

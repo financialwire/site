@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl mx-auto px-4 py-8 min-h-svh items-center scroll-mt-16" id="beneficios">
+<div class="max-w-screen-xl mx-auto px-4 py-16 min-h-svh items-center scroll-mt-16" id="beneficios">
     <h1 class="font-bold text-4xl lg:text-6xl lg:text-center mb-6">
         Tenha controle do seu dinheiro <br>
         de maneira simplificada

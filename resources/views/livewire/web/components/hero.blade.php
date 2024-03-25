@@ -12,7 +12,7 @@
             </p>
 
             <a href="{{ env('DASH_REGISTRATION_URL') }}"
-                class="px-6 lg:px-0 w-full max-lg:mx-auto rounded-lg bg-financialwire-purple text-lg text-white text-center font-inter font-bold py-6 lg:py-6 max-w-96 uppercase hover:bg-black transition-all ease-in-out duration-300">
+                class="px-6 lg:px-0 w-full max-lg:mx-auto rounded-lg bg-financialwire-purple text-lg text-white text-center font-inter font-bold py-6 max-w-96 uppercase hover:bg-black transition-all ease-in-out duration-300">
                 Comece agora
             </a>
         </div>
