@@ -1,7 +1,7 @@
 <div x-data="{ showBar: false }">
 
-    <div class="fixed w-full bg-zinc-900 py-4 xl:py-8 text-white transition-all ease-in-out"
-        :class="{ 'xl:!py-4 !bg-transparent !text-black backdrop-blur-lg': showBar }" x-data="{}"
+    <div class="fixed w-full bg-transparent py-4 text-black transition-all ease-in-out z-40"
+        :class="{ '!bg-transparent text-white !bg-zinc-900': showBar }" x-data="{}"
         x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-2xl mx-auto px-4 flex items-center justify-between">
             <a href="#"
@@ -23,15 +23,15 @@
 
             <div class="flex gap-4 text-sm max-xl:hidden">
                 <a href="{{ env('DASH_LOGIN_URL') }}"
-                    class="text-white bg-zinc-900 flex items-center gap-1 rounded-xl border px-6 py-3 hover:bg-financialwire-purple hover:border-financialwire-purple transition-all ease-in-out"
-                    :class="{ 'backdrop-blur border-0': showBar }">
+                    class="flex items-center gap-1 rounded-xl border px-6 py-3 transition-all ease-in-out"
+                    :class="showBar ? 'border-white text-white hover:bg-white hover:text-black' : 'border-zinc-900 text-black hover:bg-zinc-900 hover:text-white'">
                     <x-heroicon-s-arrow-right-end-on-rectangle class="w-5 h-5" />
                     Faça Login
                 </a>
 
                 <a href="{{ env('DASH_REGISTRATION_URL') }}"
-                    class="!text-white bg-financialwire-purple flex items-center gap-1 rounded-xl px-6 py-3 hover:bg-white hover:!text-black transition-all ease-in-out"
-                    :class="{ 'hover:bg-zinc-900 hover:!text-white': showBar }">
+                    class="bg-financialwire-purple flex items-center gap-1 rounded-xl px-6 py-3 transition-all ease-in-out"
+                    :class="showBar ? 'border-white text-white hover:bg-white hover:text-black' : 'text-white hover:bg-zinc-900'">
                     <x-heroicon-s-user-plus class="w-5 h-5" />
                     Cadastre-se
                 </a>
