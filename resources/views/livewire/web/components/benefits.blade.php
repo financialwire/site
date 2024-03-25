@@ -1,10 +1,10 @@
 <div class="max-w-screen-xl mx-auto px-4 py-8 min-h-svh items-center scroll-mt-16" id="beneficios">
-    <h1 class="font-bold text-4xl lg:text-6xl text-center mb-6">
+    <h1 class="font-bold text-4xl lg:text-6xl lg:text-center mb-6">
         Tenha controle do seu dinheiro <br>
         de maneira simplificada
     </h1>
 
-    <p class="text-lg lg:text-2xl text-center mb-12">
+    <p class="text-lg lg:text-2xl sm:text-center mb-12">
         Sua jornada para uma gestão financeira eficiente começa aqui.
     </p>
 

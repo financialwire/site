@@ -2,7 +2,7 @@
 
     <div class="h-full grid grid-cols-1 lg:grid-cols-2 items-center">
         <div class="flex flex-col gap-4 sm:gap-6 max-lg:max-w-screen-sm max-lg:mx-auto max-lg:mb-auto">
-            <h1 class="font-bold text-4xl lg:text-6xl">
+            <h1 class="font-bold text-4xl lg:text-[4rem] leading-none">
                 Sua plataforma de controle financeiro
             </h1>
             <p class="text-xl lg:text-2xl">
