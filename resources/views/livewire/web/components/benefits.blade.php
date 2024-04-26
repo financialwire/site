@@ -10,7 +10,11 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 rounded-2xl bg-gray-200 p-6 lg:p-8">
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-presentation-chart-line class="h-8 w-8 text-gray-100" />
             </div>
@@ -25,7 +29,11 @@
             </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-banknotes class="h-8 w-8 text-gray-100" />
             </div>
@@ -40,7 +48,11 @@
             </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-device-phone-mobile class="h-8 w-8 text-gray-100" />
             </div>
@@ -55,7 +67,11 @@
             </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-document-arrow-up class="h-8 w-8 text-gray-100" />
             </div>
@@ -70,7 +86,11 @@
             </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-rectangle-stack class="h-8 w-8 text-gray-100" />
             </div>
@@ -85,7 +105,11 @@
             </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow">
+        <div class="bg-white rounded-2xl p-6 lg:p-8 space-y-2 shadow" x-data="{ intersect: false }"
+            x-intersect:enter="intersect=true" x-intersect:leave="intersect=false"
+            :class="intersect ?
+                'animate-fade-down animate-ease-out animate-delay-100 md:odd:animate-delay-100 md:even:animate-delay-200 lg:[&:nth-child(3n-2)]:animate-delay-100 lg:[&:nth-child(3n-1)]:animate-delay-200 lg:[&:nth-child(3n)]:animate-delay-300' :
+                'opacity-0'">
             <div class="p-2 lg:p-4 rounded-full bg-financialwire-purple w-fit">
                 <x-heroicon-m-users class="h-8 w-8 text-gray-100" />
             </div>
