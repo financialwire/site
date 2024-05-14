@@ -20,6 +20,8 @@
 </head>
 
 <body class="font-grotesk">
+    <x-dialog />
+
     <livewire:web.components.navbar />
 
     {{ $slot }}

@@ -6,6 +6,7 @@ export default {
   content: [
     "./resources/**/*.blade.php",
     "./vendor/tallstackui/tallstackui/src/**/*.php",
+    "./app/Providers/*.php",
   ],
   theme: {
     extend: {

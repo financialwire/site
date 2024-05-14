@@ -12,33 +12,25 @@
             </p>
         </div>
 
-        <form class="w-full space-y-4">
+        <form wire:submit="save" class="w-full space-y-4">
             <div class="flex flex-col space-y-2" x-data="{ intersect: false }" x-intersect:enter="intersect=true"
                 :class="intersect ? 'animate-fade-left animate-ease-out animate-delay-200' : 'opacity-0'">
-                <label class="xl:text-lg" for="name">Nome:</label>
-                <input type="text" id="name" placeholder="Seu nome"
-                    class="p-4 xl:text-lg bg-gray-50 rounded-2xl border border-gray-300 focus:ring-financialwire-purple transition-all ease-in-out ">
+                <x-input wire:model.lazy="form.name" label="Nome:" placeholder="Seu nome" />
             </div>
 
             <div class="flex flex-col space-y-2" x-data="{ intersect: false }" x-intersect:enter="intersect=true"
                 :class="intersect ? 'animate-fade-left animate-ease-out animate-delay-200' : 'opacity-0'">
-                <label class="xl:text-lg" for="email">Seu melhor email:</label>
-                <input type="text" id="email" placeholder="seu@email.com"
-                    class="p-4 xl:text-lg bg-gray-50 rounded-2xl border border-gray-300 focus:ring-financialwire-purple transition-all ease-in-out ">
+                <x-input wire:model.lazy="form.email" label="Seu melhor email:" placeholder="seu@email.com" />
             </div>
 
             <div class="flex flex-col space-y-2" x-data="{ intersect: false }" x-intersect:enter="intersect=true"
                 :class="intersect ? 'animate-fade-left animate-ease-out animate-delay-200' : 'opacity-0'">
-                <label class="xl:text-lg" for="subject">Assunto:</label>
-                <input type="text" id="subject" placeholder="Motivo do contato"
-                    class="p-4 xl:text-lg bg-gray-50 rounded-2xl border border-gray-300 focus:ring-financialwire-purple transition-all ease-in-out ">
+                <x-input wire:model.lazy="form.subject" label="Assunto:" placeholder="Motivo do contato" />
             </div>
 
             <div class="flex flex-col space-y-2" x-data="{ intersect: false }" x-intersect:enter="intersect=true"
                 :class="intersect ? 'animate-fade-left animate-ease-out animate-delay-200' : 'opacity-0'">
-                <label class="xl:text-lg" for="message">Mensagem:</label>
-                <textarea id="message" id="message" placeholder="Escreva aqui a sua mensagem" rows="5"
-                    class="p-4 xl:text-lg bg-gray-50 rounded-2xl border border-gray-300 focus:ring-financialwire-purple  transition-all ease-in-out resize-none"></textarea>
+                <x-textarea wire:model.lazy="form.message" label="Mensagem:" placeholder="Escreva aqui sua mensagem" />
             </div>
 
             <button
