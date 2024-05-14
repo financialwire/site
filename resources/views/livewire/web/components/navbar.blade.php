@@ -1,8 +1,8 @@
 <div x-data="{ showBar: false }">
 
     <div class="fixed w-full bg-transparent py-4 text-black transition-all ease-in-out z-40"
-        :class="{ '!bg-transparent text-white !bg-zinc-900': showBar }" x-data="{}"
-        x-ref="navbarWrapper" @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
+        :class="{ '!bg-transparent text-white !bg-zinc-900': showBar }" x-data="{}" x-ref="navbarWrapper"
+        @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-xl mx-auto px-4 flex items-center justify-between">
             <a href="#"
                 class="text-lg xl:text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
@@ -24,7 +24,8 @@
             <div class="flex gap-4 text-sm max-xl:hidden">
                 <a href="{{ env('DASH_LOGIN_URL') }}"
                     class="flex items-center gap-1 rounded-xl border px-6 py-3 transition-all ease-in-out"
-                    :class="showBar ? 'border-white text-white hover:bg-white hover:text-black' : 'border-zinc-900 text-black hover:bg-zinc-900 hover:text-white'">
+                    :class="showBar ? 'border-white text-white hover:bg-white hover:text-black' :
+                        'border-zinc-900 text-black hover:bg-zinc-900 hover:text-white'">
                     <x-heroicon-s-arrow-right-end-on-rectangle class="w-5 h-5" />
                     Faça Login
                 </a>
