@@ -1,7 +1,7 @@
 <div class="max-w-screen-xl mx-auto px-4 py-8 lg:py-16 scroll-mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center"
     id="beneficios">
     <img src="{{ asset('images/personalization.png') }}" alt="Personalização do painel"
-        class="w-full h-auto object-cover object-center border shadow-lg rounded-3xl" x-data="{ intersect: false }"
+        class="w-full h-auto object-cover object-center shadow rounded-3xl" x-data="{ intersect: false }"
         x-intersect:enter="intersect=true"
         :class="intersect ? 'animate-fade-right animate-ease-out animate-delay-[400ms]' : 'opacity-0'">
     <div class="space-y-4 lg:space-y-8">

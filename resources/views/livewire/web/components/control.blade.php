@@ -20,7 +20,7 @@
         </p>
     </div>
     <img src="{{ asset('images/control.png') }}" alt="Controle e gestão"
-        class="aspect-video w-full h-auto object-cover object-center border shadow-lg rounded-3xl" x-data="{ intersect: false }"
+        class="aspect-video w-full h-auto object-cover object-center shadow rounded-3xl" x-data="{ intersect: false }"
         x-intersect:enter="intersect=true"
         :class="intersect ? 'animate-fade-left animate-ease-out animate-delay-[400ms]' : 'opacity-0'">
 </div>
