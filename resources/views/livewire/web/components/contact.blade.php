@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl flex items-center mx-auto min-h-svh px-4 py-16 scroll-mt-16" id="contato">
+<div class="max-w-screen-xl flex items-center mx-auto min-h-svh px-4 py-8 lg:py-16 scroll-mt-16" id="contato">
     <div class="w-full flex flex-col gap-8 xl:gap-32 xl:flex-row">
         <div class="w-full space-y-4">
             <h1 class="font-bold text-3xl lg:text-5xl" x-data="{ intersect: false }" x-intersect:enter="intersect=true"

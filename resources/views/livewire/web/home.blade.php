@@ -1,4 +1,4 @@
-<div class="space-y-16 lg:space-y-32">
+<div class="lg:space-y-32">
     <livewire:web.components.hero />
 
     <livewire:web.components.benefits />
