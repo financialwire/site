@@ -3,6 +3,8 @@
 
     <livewire:web.components.benefits />
 
+    <livewire:web.components.control />
+
     <livewire:web.components.cta />
 
     <livewire:web.components.contact />
