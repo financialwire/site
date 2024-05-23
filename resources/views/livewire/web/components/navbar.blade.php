@@ -4,12 +4,14 @@
         :class="{ '!bg-transparent text-white !bg-zinc-900': showBar }" x-data="{}" x-ref="navbarWrapper"
         @scroll.window="showBar = window.pageYOffset > $refs.navbarWrapper.offsetHeight/50">
         <div class="max-w-screen-xl mx-auto px-4 flex items-center justify-between">
-            <a href="#"
-                class="text-lg xl:text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
-                {{ env('APP_NAME') }}
-            </a>
+            <div class="w-full">
+                <a href="#"
+                    class="text-lg xl:text-2xl font-bold hover:text-financialwire-purple transition-all ease-in-out">
+                    {{ env('APP_NAME') }}
+                </a>
+            </div>
 
-            <div class="flex max-xl:hidden gap-8 text-lg font-bold">
+            <div class="w-full flex justify-center max-xl:hidden gap-8 text-lg font-bold">
                 <a href="#" class="hover:text-financialwire-purple transition-all ease-in-out">
                     Início
                 </a>
@@ -21,7 +23,7 @@
                 </a>
             </div>
 
-            <div class="flex gap-4 text-sm max-xl:hidden">
+            <div class="w-full flex justify-end gap-4 text-sm max-xl:hidden">
                 <a href="{{ env('DASH_LOGIN_URL') }}"
                     class="flex items-center gap-1 rounded-xl border px-6 py-3 transition-all ease-in-out"
                     :class="showBar ? 'border-white text-white hover:bg-white hover:text-black' :

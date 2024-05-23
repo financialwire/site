@@ -1,5 +1,5 @@
 <div
-    class="relative max-sm:flex max-sm:items-center py-8 xl:py-0 before:absolute before:content-[''] before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-full before:h-full before:xl:h-[90%] before:bg-financialwire-purple">
+    class="relative max-sm:flex max-sm:items-center py-8 my-8 xl:py-0 before:absolute before:content-[''] before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-full before:h-full before:xl:h-[90%] before:bg-financialwire-purple">
     <div class="max-w-screen-xl mx-auto px-4">
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-4 xl:gap-16 max-xl:-mt-16 items-center">
             <img src="{{ asset('images/mockup.png') }}" alt="Mockup"
