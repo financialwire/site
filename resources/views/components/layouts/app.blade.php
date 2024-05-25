@@ -17,6 +17,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <title>{{ isset($title) ? env('APP_NAME') . " - $title" : env('APP_NAME') }}</title>
+    {!! seo() !!}
 </head>
 
 <body class="font-grotesk">
