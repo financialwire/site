@@ -14,6 +14,7 @@
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
         "log1x/laravel-webfonts": "^1.0",
+        "ralphjsmit/laravel-seo": "^1.5",
         "tallstackui/tallstackui": "^1.21"
     },
     "require-dev": {
